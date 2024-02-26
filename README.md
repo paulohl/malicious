@@ -24,10 +24,10 @@ _Breakdown of the suspicious parts_:
 
 ##Analyzing the files after decoding the base64 strings and downloading all hidden calls
 
-* Original HTM document contains personalized information, including my personal email address (ph@zinnia.holdings) and a URL **(https://sithchibb.com)[^1]**. 
+* Original HTM document contains personalized information, including my personal email address (ph@zinnia.holdings) and a URL **(https://sithchibb.com) [^1] **. 
     * The encoded string in the sti attribute (USER09022024UNIQUE0217020924202420240209170224) appears to be some form of unique identifier or token, which may have been generated for tracking or authentication purposes.
 
-> **[^1] https://sithchibb.com** is a domain tagged as suspicious with a blank home page and a tiny error message at the top left. 
+> ** [^1] https://sithchibb.com** is a domain tagged as suspicious with a blank home page and a tiny error message at the top left. 
 
 * The JavaScript code within the <script> tag dynamically loads two JavaScript files based on the decoded URL (sss_api):
     * The first JavaScript file is "js.js".
