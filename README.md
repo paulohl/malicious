@@ -1,9 +1,6 @@
 # ATTENTION: This is the disection of a malicious
 #  Software received from suspicious eMail address
 
-### Received via eMail and disected 
-### Intercepted hacker attack
-
 ## Introduction: disecting the received HTM file
 
 _The code seems to be obfuscated and potentially malicious_. Breaking it down:
