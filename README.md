@@ -30,7 +30,7 @@ _Breakdown of the suspicious parts_:
 > [^1]: **https://sithchibb.com** is a domain tagged as suspicious with a blank home page and a tiny error message at the top left. 
 
 * The JavaScript code within the <script> tag dynamically loads two JavaScript files based on the decoded URL (sss_api):
-    * The first JavaScript file is "js.js".
+    * The first JavaScript file is "/js.js".
     * The second JavaScript file is "/socket.io/socket.io.js".
 
 While the HTML document itself may not contain obvious malicious content, the presence of personalized information and the dynamic loading of JavaScript files could be indicative of a phishing attempt or a malicious script injection. ** It's important to exercise caution when dealing with such content, especially if it was received unexpectedly or from an unknown source **.
