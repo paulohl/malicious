@@ -7,10 +7,15 @@ Intercepted hacker attack:
 _The code seems to be obfuscated and potentially malicious_. Breaking it down:
 
 *The HTML document starts with the usual structure.
+
 *There's a <script> element in the body of the document. Inside, it seems like _the script is decoding some base64 encoded strings and creating <script> elements dynamically_.
+
 *The **atob()** function is used to decode base64 encoded strings.
+
 *The script retrieves an attribute value from an element and decodes it using **atob()**. It then _constructs a <script> element_ with certain attributes _and appends it to the <head> element_.
+
 *There's another similar operation performed in the script where it constructs another <script> element and appends it to the <head> element.
+
 
 _Breakdown of the suspicious parts_:
 
